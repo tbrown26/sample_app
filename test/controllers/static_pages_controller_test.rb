@@ -11,12 +11,12 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get Living" do
+  test "should get living" do
     get static_pages_Living_url
     assert_response :success
   end
   
-   test "should get Fun" do
+   test "should get fun" do
     get static_pages_Fun_url
     assert_response :success
   end

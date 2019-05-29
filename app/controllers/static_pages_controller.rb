@@ -5,9 +5,9 @@ class StaticPagesController < ApplicationController
   def jobs
   end
 
-  def Living
+  def living
   end
   
-  def Fun
+  def fun
   end
 end
